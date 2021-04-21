@@ -1,0 +1,34 @@
+/*
+    This is part of the dizzy-wholesale plugin
+*/
+
+/*👉
+➡*
+ * sticky mini-cart
+⬅
+.woocommerce-mini-cart.cart_list.product_list_widget {
+    overflow-y: scroll;
+    max-height: calc(100vh - 500px);
+}
+
+.woocommerce .products ul, .woocommerce ul.products {
+    display: grid;
+}
+
+➡*
+ * Full width product listings in woocommerce shop pages
+⬅
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    margin: 0 3.8% 2.992em 0;
+        margin-left: 0px;
+    padding: 0;
+    width: 100%;
+    min-width: 100%;
+    margin-left: 0;
+}
+
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+    width: 30%;
+}👈*/

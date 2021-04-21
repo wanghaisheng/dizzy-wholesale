@@ -1,0 +1,166 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Invoice Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-16 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: wc-invoice-gateway.php:161
+msgid ""
+"The WooCommerce Invoice Gateway extension requires that you have the "
+"WooCommerce core plugin installed and activated."
+msgstr ""
+
+#: wc-invoice-gateway.php:161
+msgid "Install WooCommerce"
+msgstr ""
+
+#: wc-invoice-gateway.php:185
+msgid "View WooCommerce Settings"
+msgstr ""
+
+#: wc-invoice-gateway.php:185
+msgid "Settings"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:57
+msgid "Invoice Payments"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:58
+msgid ""
+"Allows invoice payments. Sends an order email to the store admin who'll have "
+"to manually create and send an invoice to the customer."
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:77
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:79
+msgid "Enable Invoice Payment"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:83
+msgid "Title"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:85
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:86
+msgid "Invoice Payment"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:90
+msgid "Description"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:92
+msgid "Payment method description which the user sees during checkout."
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:93
+msgid "Thank you for your order. You'll be invoiced soon."
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:97
+msgid "Instructions"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:99
+msgid ""
+"Instructions that will be added to the thank you page after checkout and "
+"included within the new order email."
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:100
+msgid ""
+"If you're an account customer you'll be invoiced soon with regards to "
+"payment for your order."
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:104
+msgid "Choose an order status"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:109
+msgid "Choose the order status that will be set after checkout"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:113
+msgid "Select order status"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:117
+msgid "Restrict to specific user roles"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:122
+msgid ""
+"Choose specific user roles the gateway will display for. If no user roles "
+"are chosen the gateway will display for all users"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:126
+msgid "Select user roles"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:130
+msgid "Enable for shipping methods"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:135
+msgid ""
+"If Invoice is only available for certain methods, set it up here. Leave "
+"blank to enable for all methods."
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:139
+msgid "Select shipping methods"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:143
+msgid "Accept for virtual orders"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:144
+msgid "Accept Invoice if the order is virtual"
+msgstr ""
+
+#: classes/class-wc-invoice-gateway.php:275
+msgid "Awaiting invoice payment"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Invoice Gateway"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Adds Invoice payment gateway functionality to your WooCommerce store. This "
+"type of payment method is usually used in B2B transactions with account "
+"customers where taking instant digital payment is not an option."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wc-invoice-gateway/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Stuart Duff"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://stuartduff.com"
+msgstr ""

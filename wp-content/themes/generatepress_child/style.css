@@ -1,0 +1,49 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+.inside-right-sidebar {
+    position: sticky;
+    top: 20px;
+    max-height: 100vh;
+}
+
+
+/*
+ *  woocommerce product filter plugin
+*/
+.dz-product-search-set .dz-product-search-keywords {
+    padding-bottom: 20px;
+}
+
+.dz-product-search-set .dz-product-search-keywords {
+    padding-bottom: 20px;
+}
+
+.dz-product-search-set .dz-product-search-filter-set {
+    padding-bottom: 20px;
+}
+
+.product-search-filter-toggle-widget li {
+    display: inline-block;
+}
+
+.woocommerce ul.products li.product.dz-archive-row {
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    width: 100%;
+    float: none;
+}
+
+.dz-archive-row .dz-row-image {
+    grid-column: 1 / span 1;
+}
+
+.dz-archive-row .product-details {
+    grid-column: 2 / span 1;
+}

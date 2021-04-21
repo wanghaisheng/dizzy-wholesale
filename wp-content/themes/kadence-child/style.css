@@ -13,3 +13,23 @@ Text Domain: kadence-child
 
 /* Theme customization starts here
 -------------------------------------------------------------- */
+/* #wrapper {
+    overflow: visible;
+}
+
+.woocommerce-shop .sidebar-inner-wrap {
+    height: 100%;
+    display: block;
+}
+.woocommerce-shop .widget.woocommerce.widget_shopping_cart {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+    background-color: black;
+}
+
+.sidebar-inner-wrap section:last-child {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+} */
