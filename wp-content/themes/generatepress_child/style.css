@@ -35,15 +35,27 @@
 
 .woocommerce ul.products li.product.dz-archive-row {
     display: grid;
-    grid-template-columns: 1fr, 2fr;
+    grid-template-columns: 1fr 2fr;
     width: 100%;
     float: none;
 }
 
-.dz-archive-row .dz-row-image {
+.dz-archive-row .dz-card-minor {
     grid-column: 1 / span 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .dz-archive-row .product-details {
     grid-column: 2 / span 1;
+    padding: 0 0 0 10%;
+}
+
+.dz-archive-row .product-details input.dz-grid-add-to-cart {
+    float: right;
+}
+
+.dz-archive-row .product-details .quantity {
+    display: inline;
 }

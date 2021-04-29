@@ -24,7 +24,7 @@ if ( wc_get_loop_prop( 'total' ) ) {
 
 		//wc_get_template_part( 'content', 'product' );
 		?>
-			<li <?php wc_product_class( 'dz-archive-row', $product ); ?>>
+			<li id="<?php echo "dz-archive-row-{$product->get_id()}"; ?>" <?php wc_product_class( 'dz-archive-row', $product ); ?>>
 				<div class="dz-card-minor">
 					<?php woocommerce_template_loop_product_link_open(); ?>
 						<?php woocommerce_template_loop_product_thumbnail(); ?>
@@ -34,7 +34,7 @@ if ( wc_get_loop_prop( 'total' ) ) {
 				<div class="product-details content-bg entry-content-wrap">
 					<?php woocommerce_template_loop_product_title(); ?>
 					<?php woocommerce_template_loop_price(); ?>
-					<?php woocommerce_template_single_excerpt(); ?>
+					<?php // woocommerce_template_single_excerpt(); ?>
 					<?php dz_archive_row_add_to_cart(); ?>
 				</div>
 				

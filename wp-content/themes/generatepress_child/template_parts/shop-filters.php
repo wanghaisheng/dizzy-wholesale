@@ -15,6 +15,7 @@
         <?php
             echo woocommerce_product_search_filter_attribute([
                 'attribute' => 'fabric',
+                'style' => 'inline',
             ]);
             echo woocommerce_product_search_filter_attribute([
                 'attribute' => 'cut',

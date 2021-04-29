@@ -1,6 +1,7 @@
 <?php
 
 global $product;
+global $wp;
 
 
 $identity_attribute_slug = array_keys($product->get_variation_attributes())[0];
@@ -35,7 +36,7 @@ $variations_attr = function_exists( 'wc_esc_json' ) ? wc_esc_json( $variations_j
 
 do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
-<form class="variations_form cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', "?add-to-cart={$product->get_id()}&dz-grid" ) ); ?>" method="post" enctype='multipart/form-data' data-product_id="<?php echo absint( $product->get_id() ); ?>" data-product_variations="<?php echo $variations_attr; // WPCS: XSS ok. ?>">
+<form class="variations_form cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', "?add-to-cart={$product->get_id()}&dz-grid#dz-archive-row-{$product->get_id()}" ) ); ?>" method="post" enctype='multipart/form-data' data-product_id="<?php echo absint( $product->get_id() ); ?>" data-product_variations="<?php echo $variations_attr; // WPCS: XSS ok. ?>">
 	<?php do_action( 'woocommerce_before_variations_form' ); ?>
 
 	<?php if ( empty( $available_variations ) && false !== $available_variations ) : ?>
@@ -76,6 +77,9 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 									),
 									$variation,
 								);
+								?>
+								Max 25
+								<?php
 							}
 						?>
 					</td>
@@ -83,6 +87,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 			<?php endforeach; ?>
 			</tbody>
 		</table>
+		<input type="hidden" name="identity_attribute_name" value="<?php echo esc_attr(wc_variation_attribute_name($identity_attribute_slug)); ?>" />
 		<input type="submit" class="button dz-grid-add-to-cart" value="Add to cart">
 	<?php endif; ?>
 
